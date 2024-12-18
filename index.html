@@ -1,151 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Main Project</title>
+    <title>Shop Bakery</title>
   </head>
   <body>
-    <main id="main">
-      <h1 id="title">Wikipedia</h1>
-      <p>Вільна енциклопедія.</p>
-      <figure id="img-div">
-        <!-- Довільний графічний контент: фотографія, графік, діаграма тощо -->
-        <img
-          id="image"
-          src="https://en.wikipedia.org/wiki/Main_Page"
-          alt="Wiki"
-        />
-        <figcaption id="img-caption">
-          Украї́нська Вікіпе́дія — україномовний розділ Вікіпедії, багатомовного
-          інтернет-проєкту зі створення інтернет-енциклопедії на базі вікісайту,
-          яку може редагувати кожний охочий користувач Інтернету.
-        </figcaption>
-      </figure>
-      <section id="tribute-info">
-        <h3>
-          Станом на 16 грудня 2024 року за кількістю статей українська Вікіпедія
-          посідає 14-те місце серед мовних розділів та третє місце серед
-          слов'янських вікіпедій, маючи понад 1,3 мільйона статей.
-        </h3>
-        <a
-          id="tribute-link"
-          href="https://uk.wikipedia.org/wiki/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F"
-          target="_blank"
-          >Вікіпедія</a
-        >
-      </section>
-    </main>
+    <header>
+      <nav>
+        <!-- logo and menu -->
+        <a href="#">
+          <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
+        </a>
+        <ul>
+          <li><a href="#traditions-section">Наші традиції</a></li>
+          <li><a href="#chefs-section">Шеф-кухарі</a></li>
+          <li><a href="#formats-section">Формати</a></li>
+          <li><a href="#contact-section">Контакти</a></li>
+        </ul>
+
+        <!-- End logo and menu -->
+        <!-- order button -->
+        <button type="button">Замовити дзвінок</button>
+        <!-- End order button -->
+      </nav>
+      <main>
+        <section><h1>Сучасна пекарня</h1></section>
+        <section>
+          <ul>
+            <li>Великий попит на ринку</li>
+            <li>Доступні за бюджетом формати</li>
+            <li>Досвідчена управлінська команда</li>
+          </ul></section><section id="traditions-section">
+          <h2>Новий формат традицій</h2>
+          <p>
+            <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і
+            зберегла смак традиційної випічки та натуральність інгредієнтів.
+          </p>
+          <p>
+            Ми працюємо як найвідоміші мережі —
+            <span>5 хвилин і замовлення готове</span>. А ще у наших пекарень
+            стильний дизайн та висока якість обслуговування!
+          </p>
+          <img src="./images/baker-man.jpg" alt="Чоловік пекар транспортує свіжу випічку">
+        </section>
+        <section id="#chefs-section">
+          <h2>Наші найкращі шеф-кухарі</h2>
+          <ul>
+            <li>
+              <article>
+                <h3>Настя</h3>
+                <p>Привіт, я Настя!</p>
+                <p>Вже 10 років, я втілюю у життя цікаві та смачні ідеї.</p>
+                <p>Я випічу для вас найсмачніщі вироби!</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h3>Влад</h3>
+                <p>Привіт, я Влад!</p>
+                <p>
+                  Мій кодитерський стаж вже 18 років. SHOP BEKERY - це наша
+                  любов, з якою ми ділимось кожен раз з Вами через нашу випічку!
+                </p>
+                <p>Я зроблю для вас унікальну начинку на будь який смак!</p>
+              </article>
+            </li>
+          </ul>
+        </section>
+        <section id="formats-section">
+          <h2>Формати</h2>
+          <ul>
+            <li>
+              <article><h3 lang="en">Walrus</h3></article>
+            </li>
+            <li>
+              <article><h3 lang="en">Horseshoe</h3></article>
+            </li>
+            <li>
+              <article><h3 lang="en">Hendlebar</h3></article>
+            </li>
+          </ul>
+        </section>
+        <section id="contact-section"><h2>Приєднуйтеся до мережі пекарень</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.163447036075!2d30.488698375528617!3d50.456680986916474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1734547602469!5m2!1suk!2sua" width="603" height="595" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+      </main>
+      <footer>
+        <nav>
+          <a href="#">
+            <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
+          </a>
+          <ul>
+            <li><a href="#">Наші традиції</a></li>
+            <li><a href="#">Шеф-кухарі</a></li>
+            <li><a href="#">Формати</a></li>
+            <li><a href="#">Контакти</a></li>
+          </ul>
+        </nav>
+        <address>
+          <ul>
+            <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
+            <li>
+              <a href="mailto:shopbakery@gmail.com" target="_blank">
+                shopbakery@gmail.com</a
+              >
+            </li>
+            <li><a href="https://maps.app.goo.gl/Gm2EsfF9Qmn3aHtm6">Україна, м. Київ, вул. Січових Стрільців 54</a></li>
+            <li>
+              <a href="#">
+                <!-- facebook icon -->
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <!-- instagram icon -->
+              </a>
+            </li>
+          </ul>
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            >Політика конфідеційності</a
+          >
+          <p>2022 (c)Дані захищено</p>
+        </address>
+      </footer>
+    </header>
   </body>
 </html>
-
-<main id="main">
-  <h1 id="title">Dr. Norman Borlaug</h1>
-  <p>The man who saved a billion lives</p>
-  <figure id="img-div">
-    <img
-      id="image"
-      src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg"
-      alt="Dr. Norman Borlaug seen standing in Mexican wheat field with a group of biologists"
-    />
-    <figcaption id="img-caption">
-      Dr. Norman Borlaug, third from the left, trains biologists in Mexico on
-      how to increase wheat yields - part of his life-long war on hunger.
-    </figcaption>
-  </figure>
-  <section id="tribute-info">
-    <h3 id="headline">Here's a time line of Dr. Borlaug's life:</h3>
-    <ul>
-      <li><strong>1914</strong> - Born in Cresco, Iowa</li>
-      <li>
-        <strong>1933</strong> - Leaves his family's farm to attend the
-        University of Minnesota, thanks to a Depression era program known as the
-        "National Youth Administration"
-      </li>
-      <li>
-        <strong>1935</strong> - Has to stop school and save up more money. Works
-        in the Civilian Conservation Corps, helping starving Americans. "I saw
-        how food changed them", he said. "All of this left scars on me."
-      </li>
-      <li>
-        <strong>1937</strong> - Finishes university and takes a job in the US
-        Forestry Service
-      </li>
-      <li>
-        <strong>1938</strong> - Marries wife of 69 years Margret Gibson. Gets
-        laid off due to budget cuts. Inspired by Elvin Charles Stakman, he
-        returns to school study under Stakman, who teaches him about breeding
-        pest-resistent plants.
-      </li>
-      <li>
-        <strong>1941</strong> - Tries to enroll in the military after the Pearl
-        Harbor attack, but is rejected. Instead, the military asked his lab to
-        work on waterproof glue, DDT to control malaria, disinfectants, and
-        other applied science.
-      </li>
-      <li>
-        <strong>1942</strong> - Receives a Ph.D. in Genetics and Plant Pathology
-      </li>
-      <li>
-        <strong>1944</strong> - Rejects a 100% salary increase from Dupont,
-        leaves behind his pregnant wife, and flies to Mexico to head a new plant
-        pathology program. Over the next 16 years, his team breeds 6,000
-        different strains of disease resistent wheat - including different
-        varieties for each major climate on Earth.
-      </li>
-      <li>
-        <strong>1945</strong> - Discovers a way to grown wheat twice each
-        season, doubling wheat yields
-      </li>
-      <li>
-        <strong>1953</strong> - crosses a short, sturdy dwarf breed of wheat
-        with a high-yeidling American breed, creating a strain that responds
-        well to fertilizer. It goes on to provide 95% of Mexico's wheat.
-      </li>
-      <li>
-        <strong>1962</strong> - Visits Delhi and brings his high-yielding
-        strains of wheat to the Indian subcontinent in time to help mitigate
-        mass starvation due to a rapidly expanding population
-      </li>
-      <li><strong>1970</strong> - receives the Nobel Peace Prize</li>
-      <li>
-        <strong>1983</strong> - helps seven African countries dramatically
-        increase their maize and sorghum yields
-      </li>
-      <li>
-        <strong>1984</strong> - becomes a distinguished professor at Texas
-        A&amp;M University
-      </li>
-      <li>
-        <strong>2005</strong> - states "we will have to double the world food
-        supply by 2050." Argues that genetically modified crops are the only way
-        we can meet the demand, as we run out of arable land. Says that GM crops
-        are not inherently dangerous because "we've been genetically modifying
-        plants and animals for a long time. Long before we called it science,
-        people were selecting the best breeds."
-      </li>
-      <li><strong>2009</strong> - dies at the age of 95.</li>
-    </ul>
-    <blockquote
-      cite="http://news.rediff.com/report/2009/sep/14/pm-pays-tribute-to-father-of-green-revolution-borlaug.htm"
-    >
-      <p>
-        "Borlaug's life and achievement are testimony to the far-reaching
-        contribution that one man's towering intellect, persistence and
-        scientific vision can make to human peace and progress."
-      </p>
-      <cite>-- Indian Prime Minister Manmohan Singh</cite>
-    </blockquote>
-    <h3>
-      If you have time, you should read more about this incredible human being
-      on his
-      <a
-        id="tribute-link"
-        href="https://en.wikipedia.org/wiki/Norman_Borlaug"
-        target="_blank"
-        >Wikipedia entry</a
-      >.
-    </h3>
-  </section>
-</main>
